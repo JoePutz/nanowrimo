@@ -22,5 +22,5 @@ def count_words_in_files(file_paths):
     return total_word_count
 
 # Example usage
-file_paths = [r'C:\Users\josep\OneDrive\Desktop\LOZ2\Prologue2.docx', r'C:\Users\josep\OneDrive\Desktop\LOZ2\80 Impa.docx']  # Replace with your file paths
+file_paths = [r'Prologue2.docx', r'1 char.docx'] 
 print(f"The total word count across all files is {count_words_in_files(file_paths)}.")
